@@ -15,6 +15,8 @@ const { uploadImageMiddleW } = require("../middleware/uploadImage");
 const { authenticateMiddleW } = require("../middleware/authentication");
 const router = express();
 
+//Comment added
+
 router.get("/", welcome);
 router.post("/addUser", postUser);
 router.post("/login", getUserLogging);
